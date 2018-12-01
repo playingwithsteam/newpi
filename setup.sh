@@ -9,5 +9,5 @@ sudo rm /boot/config.txt; cp /root/setup/config.txt /boot/
 sudo wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/runonce.sh
 sudo wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/apps.sh
 # Set to continue and reboot *ONLY RUN "runonce.sh" ONCE!*
-sudo echo "sh /root/setup/runonce.sh" > /etc/rc.local
+sudo echo "sh /root/setup/runonce.sh" >> /etc/rc.local
 sudo reboot
