@@ -19,11 +19,13 @@ Once the reboot is done, run: /root/setup/runonce.sh and apps.sh
 
 Will need to add bookmarks including: http://localhost:631 for printer setup and management. Making sure to allow user "pi" to print.
 
-***Current config removes Abiword and installs Calligra***
+***Current config removes Abiword and installs LibreOffice***
 
 Problem: A) Abiword seems visually buggy. Visually. B) Office app selection seems limited. C) You need Calligra for Krita, the photoshop alternative. C1) Calligra may cause java dependency issues, possibly resulting in upgrade/update issues?
 
 Solutions: 1) Remove Abiword. Install LibreOffice deal with GIMP or 2) Remove Abiword. Install Callira, gain benefit of Krita.
+
+Bookmarks to add: Wikipedia, W3, PHP.net, Localhost:631 (cups),
 
 Inspired in the process of starting up Playing with STEAM:
 https://PlayingwithSTEAM.com - Coming soon!
