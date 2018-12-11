@@ -4,7 +4,7 @@ echo "[ENTER] to continue: Installing goodies! Find a healthy snack, this will t
 sudo apt-get -y install filezilla blender gimp inkscape dbmix whois jwhois dnsutils rblcheck gelemental cups-client calibre htop screen cups geary
 #sudo apt-get -y install junior-art junior-doc junior-games-arcade junior-games-card junior-games-puzzle junior-games-sim junior-internet junior-math junior-programming junior-system junior-toys junior-typing junior-writing qmmp cherrytree
 sudo apt-get -y remove abiword
-sudo apt-get -y install libreoffice qmmp cherrytree junior-programming junior-art minecraft-pi junior-math junior-education
+sudo apt-get -y install libreoffice qmmp cherrytree junior-programming junior-art minecraft-pi junior-math junior-education scratch2
 sudo apt-get -y autoremove; sudo apt-get clean
 # Installing junior packages + you may want to include "Calligra" as an alternate or additional office productivity package.
 # Preperation for printing access.
