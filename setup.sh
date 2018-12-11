@@ -13,6 +13,9 @@ echo "[ENTER] to continue: Now overscan is off, card reader is overlocked. Downl
 wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/runonce.sh
 wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/apps.sh
 wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/minimal.sh
+wget https://raw.githubusercontent.com/playingwithsteam/newpi/master/Start-Page.desktop
+mv Start-Page.desktop /home/pi/Desktop/
+chown pi: /home/pi/Desktop/Start*
 #ChMOD - "Because duh"
 chmod 777 /root/setup/*.sh
 echo "[ENTER] to continue: Time to reboot. Execute /root/setup/runonce.sh after, to get fully updated and then reboot again"

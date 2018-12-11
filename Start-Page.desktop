@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Start Page (Start Here!)
+Comment=Link to info on web
+Icon=/usr/share/pixmaps/chromium-browser.png
+Exec=/usr/bin/chromium-browser https://playingwithsteam.com/kids-start-page/
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
